@@ -13,3 +13,5 @@ LeagueSchema.statistics = {
     this.findOne({ _id : id }).populate('commissioner').exec(cb);
   }
 };
+
+mongoose.model('League', LeagueSchema);
