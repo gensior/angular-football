@@ -4,5 +4,5 @@ window.angular.module('ngff.controllers.nfl', [])
       $scope.global = Global;
 
       $scope.nflteams = NFL.teams;
-      $scope.nflteam = NFL.teams[$routeParms['nflTeamId']];
+      $scope.nflteam = NFL.teams[$routeParams['nflTeamId']];
     }]);
