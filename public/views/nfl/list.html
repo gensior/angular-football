@@ -1,6 +1,6 @@
 <section ng-controller="NFLController">
   <h2>NFL Teams</h2>
-  <div ng-reapeat="nflteam in nflteams">
+  <div ng-repeat="nflteam in nflteams">
     <a href="#!/nflteams/{{ $index }}">{{ nflteam.team }} {{ nflteam.mascot }}</a>
   </div>
 </section>
