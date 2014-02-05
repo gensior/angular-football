@@ -18,4 +18,4 @@ window.angular.module('ngff.services',
   ['ngff.services.global',
   'ngff.services.nfl',
   'ngff.services.leagues',
-  'ngff.controllers.fantasyTeams']);
+  'ngff.services.fantasyTeams']);
