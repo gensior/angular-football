@@ -8,7 +8,7 @@ var LeagueSchema = new Schema({
   commissioner: {type: Schema.ObjectId, ref: 'User'}
 });
 
-LeagueSchema.statistics = {
+LeagueSchema.statics = {
   load: function (id, cb) {
     this.findOne({ _id : id }).populate('commissioner').exec(cb);
   }
